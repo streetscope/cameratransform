@@ -55,6 +55,9 @@ addopts = [
 requires = ["hatchling>=1.25"]
 build-backend = "hatchling.build"
 
+[tool.hatch.build.targets.wheel.force-include]
+"cameratransform" = "cameratransform"
+
 [tool.hatch.build.targets.sdist]
 include = [
   "cameratransform/cameratransform",
