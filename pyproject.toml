@@ -56,7 +56,7 @@ requires = ["hatchling>=1.25"]
 build-backend = "hatchling.build"
 
 [tool.hatch.build.targets.sdist]
-include = [
+include = ["cameratransform",
   "cameratransform/cameratransform",
 ]
 
