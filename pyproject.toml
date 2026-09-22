@@ -62,5 +62,8 @@ include = [
     "docs",
 ]
 
+[tool.hatch.build.targets.wheel.force-include]
+"cameratransform/__init__.py" = "cameratransform/__init__.py"
+
 [tool.hatch.build.targets.wheel]
 packages = ["cameratransform", "cameratransform.cameratransform"]
