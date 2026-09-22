@@ -61,4 +61,4 @@ include = ["cameratransform",
 ]
 
 [tool.hatch.build.targets.wheel]
-packages = ["cameratransform"]
+packages = ["cameratransform", "cameratransform.cameratransform"]
