@@ -56,9 +56,10 @@ requires = ["hatchling>=1.25"]
 build-backend = "hatchling.build"
 
 [tool.hatch.build]
+source = "cameratransform"
 include = [
-    "cameratransform/cameratransform/*.py",
-    "cameratransform/docs",
+    "/cameratransform/*.py",
+    "/docs",
 ]
 
 [tool.hatch.build.targets.wheel]
