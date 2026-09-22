@@ -57,7 +57,7 @@ build-backend = "hatchling.build"
 
 [tool.hatch.build.targets.sdist]
 include = [
-  "/cameratransform",
+  "cameratransform/cameratransform",
 ]
 
 [tool.hatch.build.targets.wheel]
