@@ -1,0 +1,2 @@
+recursive-include cameratransform *.py
+recursive-include cameratransform/cameratransform *.py
