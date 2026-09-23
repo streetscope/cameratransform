@@ -1,6 +1,6 @@
 [project]
 name = "cameratransform"
-version = "1.2.1.1"
+version = "1.2.1.2"
 description = "Projects coordinates from 2D to 3D and can fit camera parameters"
 authors = [{name = "Richard Gerum", email = "14153051+rgerum@users.noreply.github.com"}]
 license = "MIT"
@@ -54,6 +54,9 @@ addopts = [
 [build-system]
 requires = ["hatchling>=1.25"]
 build-backend = "hatchling.build"
+
+[tool.hatch.build]
+ignore-vcs = true
 
 [tool.hatch.build.targets.wheel.force-include]
 "cameratransform/__init__.py" = "cameratransform/__init__.py"
