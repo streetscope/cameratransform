@@ -55,9 +55,6 @@ addopts = [
 requires = ["hatchling>=1.25"]
 build-backend = "hatchling.build"
 
-[tool.hatch.build]
-ignore-vcs = true
-
 [tool.hatch.build.targets.wheel.force-include]
 "cameratransform/__init__.py" = "cameratransform/__init__.py"
 

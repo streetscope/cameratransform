@@ -19,8 +19,5 @@ https://github.com/rgerum/cameratransform/commit/e85578daa6651542ae1ee1df37152eb
 
 Modifications to pyproject.toml to get the __init__.py file when installing forked repo with pip.
 Inserted the following lines into pyproject.toml:
-[tool.hatch.build]
-ignore-vcs = true
-
 [tool.hatch.build.targets.wheel.force-include]
 "cameratransform/__init__.py" = "cameratransform/__init__.py"
